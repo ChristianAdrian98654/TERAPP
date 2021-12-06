@@ -1,0 +1,355 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+	background:url(../img/fondo2.jpeg); /* Nuestra imagen de fondo */
+	background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+	font-family:helvetica, arial, sans-serif;
+	line-height:20px;
+}
+.link{
+    color: black;
+}
+.forms-box{
+    width: 150px;
+    height: 200px;
+    left: -42%;
+    top: 14px;
+    position: relative;
+    margin: 0% auto;
+    background: lightskyblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+.submit-btns{
+    width: 125px;
+    top: 80px;
+    left: 0px;
+    position: relative;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #929fba);
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+.submit-btns:hover{
+    background-color: rgba(3, 169, 244, 0.7);
+}
+.forms-box2{
+    width: 150px;
+    height: 200px;
+    left: -26%;
+    top: -196px;
+    position: relative;
+    margin: 0% auto;
+    background: tomato;
+    padding: 5px;
+    border-radius: 10px;
+}
+.submit-btns2{
+    width: 112px;
+    top: 140px;
+    left: 0px;
+    position: relative;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #929fba);
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+.submit-btns2:hover{
+    background-color: rgba(207, 56, 45, 0.7);
+}
+.forms-box3{
+    width: 150px;
+    height: 200px;
+    left: -10%;
+    top: -405px;
+    position: relative;
+    margin: 0% auto;
+    background: gold;
+    padding: 5px;
+    border-radius: 10px;
+}
+.submit-btns3{
+    width: 112px;
+    top: 80px;
+    left: 0px;
+    position: relative;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #929fba);
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+.submit-btns3:hover{
+    background-color: rgba(214, 197, 47, 0.966);
+}
+.forms-box4{
+    width: 150px;
+    height: 200px;
+    left: 6%;
+    top: -613px;
+    position: relative;
+    margin: 0% auto;
+    background: mediumturquoise;
+    padding: 5px;
+    border-radius: 10px;
+}
+.submit-btns4{
+    width: 112px;
+    top: 160px;
+    left: 0px;
+    position: relative;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #929fba);
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+.submit-btns4:hover{
+    background-color: #2BBBAD;
+}
+.forms-box5{
+    width: 150px;
+    height: 200px;
+    left: 22%;
+    top: -822px;
+    position: relative;
+    margin: 0% auto;
+    background: mediumslateblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+.submit-btns5{
+    width: 112px;
+    top: 80px;
+    left: 0px;
+    position: relative;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #929fba);
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+.submit-btns5:hover{
+    background-color: #7e57c2;
+}
+.forms-box6{
+    width: 150px;
+    height: 200px;
+    left: 38%;
+    top: -1031px;
+    position: relative;
+    margin: 0% auto;
+    background: lightskyblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+.submit-btns6{
+    width: 112px;
+    top: 160px;
+    left: 0px;
+    position: relative;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #929fba);
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+.submit-btns6:hover{
+    background-color: rgba(3, 169, 244, 0.7);
+}
+.forms-box7{
+    width: 150px;
+    height: 200px;
+    left: -42%;
+    top: -995px;
+    position: relative;
+    margin: 0% auto;
+    background: tomato;
+    padding: 5px;
+    border-radius: 10px;
+}
+.submit-btns7{
+    width: 112px;
+    top: 80px;
+    left: 0px;
+    position: relative;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #929fba);
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+.submit-btns7:hover{
+    background-color: rgba(207, 56, 45, 0.7);
+}
+.forms-box8{
+    width: 150px;
+    height: 200px;
+    left: -26%;
+    top: -1204px;
+    position: relative;
+    margin: 0% auto;
+    background: lightskyblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+.submit-btns8{
+    width: 112px;
+    top: 160px;
+    left: 0px;
+    position: relative;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #929fba);
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+.submit-btns8:hover{
+    background-color: rgba(3, 169, 244, 0.7);
+}
+.forms-box9{
+    width: 150px;
+    height: 200px;
+    left: -10%;
+    top: -1414px;
+    position: relative;
+    margin: 0% auto;
+    background: mediumturquoise;
+    padding: 5px;
+    border-radius: 10px;
+}
+.submit-btns9{
+    width: 112px;
+    top: 80px;
+    left: 0px;
+    position: relative;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #929fba);
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+.submit-btns9:hover{
+    background-color: #2BBBAD;
+}
+.forms-box10{
+    width: 150px;
+    height: 200px;
+    left: 6%;
+    top: -1624px;
+    position: relative;
+    margin: 0% auto;
+    background: gold;
+    padding: 5px;
+    border-radius: 10px;
+}
+.submit-btns10{
+    width: 112px;
+    top: 160px;
+    left: 0px;
+    position: relative;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #929fba);
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+.submit-btns10:hover{
+    background-color: rgba(214, 197, 47, 0.966);
+}
+.forms-box11{
+    width: 150px;
+    height: 200px;
+    left: 22%;
+    top: -1832px;
+    position: relative;
+    margin: 0% auto;
+    background: lightskyblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+.submit-btns11{
+    width: 112px;
+    top: 80px;
+    left: 0px;
+    position: relative;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #929fba);
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+.submit-btns11:hover{
+    background-color: rgba(3, 169, 244, 0.7);
+}
+.forms-box12{
+    width: 150px;
+    height: 200px;
+    left: 38%;
+    top: -2038px;
+    position: relative;
+    margin: 0% auto;
+    background: mediumslateblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+.submit-btns12{
+    width: 112px;
+    top: 160px;
+    left: 0px;
+    position: relative;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #929fba);
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+.submit-btns12:hover{
+    background-color: #7e57c2;
+}
+
+
